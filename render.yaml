@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: SAINI-TXT19 
+    name: SAINITXT19 
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/Kuldeepsaini83024/Saini-txt19
+    repo: https://github.com/saini19028/Sainitxt19
     branch: main
     autoDeploy: false
     envVars:
