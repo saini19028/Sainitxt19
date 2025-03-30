@@ -1,0 +1,40 @@
+
+{
+    "name": "𝙎𝘼𝙄𝙉𝙄 𝙎𝘼𝙃𝘼𝘽",
+    "description": "Download videos from various websites using this Telegram bot.",
+    "logo": "https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png",
+    "keywords": [
+        "drm-video-dl",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/Kuldeepsaini83024/Saini-txt19",
+    "success_url": "https://github.com/Kuldeepsaini83024/Saini-txt19",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter your Telegram API ID.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter your Telegram API Hash.",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your Telegram Bot Token.",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "User ID of Bot Owner",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}
