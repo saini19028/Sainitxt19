@@ -478,10 +478,10 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-                cc = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n🎞️𝐓𝐢𝐭𝐥𝐞 » `{name1}` **[{res}]** [{CR}] .mp4\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » {CR}\n'
-                cc1 = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n📕𝐓𝐢𝐭𝐥𝐞 » `{name1}` [{CR}] .pdf\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » {CR}\n'
-                cczip = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n📁𝐓𝐢𝐭𝐥𝐞 » `{name1}` [{CR}] .zip\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » {CR}\n'  
-                ccimg = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n🖼️𝐓𝐢𝐭𝐥𝐞 » `{name1}` [{CR}] .jpg\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » {CR}\n'
+                cc = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n<b>Video Title</b> » `{name1}` **[{res}]** [{CR}] .mp4\n\n<pre><b>Batch Name : {b_name}</b></pre>\n\n𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤   » {CR}\n'
+                cc1 = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n<b> Pdf Title</b> » `{name1}` [{CR}] .pdf\n\n<pre><b>Batch Name : {b_name}</b></pre>\n\n𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  » {CR}\n'
+                cczip = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n<b> Zip Title</b> » `{name1}` [{CR}] .zip\n\n<pre><b>Batch Name : {b_name}</b></pre>\n\n𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  » {CR}\n'  
+                ccimg = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n<b> Image Title</b>» `{name1}` [{CR}] .jpg\n\n<pre><b>Batch Name : {b_name}</b></pre>\n\n𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤  » {CR}\n'
                 cccpvod = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n🎞️𝐓𝐢𝐭𝐥𝐞 » `{name1}` [{CR}] .mp4\n\n<a href="{urlcpvod}">__**Click Here to Watch Stream**__</a>\n🔗𝐋𝐢𝐧𝐤 » {link0}\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » {CR}\n'
                 ccyt = f'——— ✨ [{str(count).zfill(3)}]({link0}) ✨ ———\n\n🎞️𝐓𝐢𝐭𝐥𝐞 » `{name1}` [{CR}] .mp4\n\n<a href="{url}">__**Click Here to Watch Stream**__</a>\n\n<pre><code>📚 Course : {b_name}</code></pre>\n\n🌟𝐄𝐱𝐭𝐫𝐚𝐜𝐭𝐞𝐝 𝐁𝐲 » {CR}\n'
                                  
