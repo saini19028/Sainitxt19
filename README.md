@@ -1,5 +1,5 @@
 Welcome Dosto....
-NON-DRM bot made by @kuldeep_saini19 (TELEGRAM & Instagram)
+NON-DRM bot made by @Saini_sahab_19 (TELEGRAM & Instagram)
 
 #command
 ```
